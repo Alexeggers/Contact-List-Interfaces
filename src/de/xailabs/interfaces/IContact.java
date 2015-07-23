@@ -1,4 +1,4 @@
-package interfaces;
+package de.xailabs.interfaces;
 
 public interface IContact {
 	
