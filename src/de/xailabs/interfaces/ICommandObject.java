@@ -6,12 +6,12 @@ public interface ICommandObject {
 	
 	public String getCommand();
 	
+	public void setSearchParameter(String searchParameter);
+	
+	public String getSearchParameter();
+	
 	public void setContact(IContact contact);
 	
 	public IContact getContact();
-	
-	public void setContacts(IContact[] contacts);
-	
-	public IContact[] getContacts();
 	
 }
