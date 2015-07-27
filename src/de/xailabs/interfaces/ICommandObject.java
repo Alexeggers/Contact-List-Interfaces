@@ -10,4 +10,8 @@ public interface ICommandObject {
 	
 	public IContact getContact();
 	
+	public void setSearchparameter(String searchparameter);
+	
+	public String getSearchparameter();
+	
 }
