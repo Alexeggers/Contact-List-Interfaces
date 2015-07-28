@@ -6,9 +6,11 @@ public interface IContact {
 	public void setPhonenumber(String phonenumber);
 	public void setNotes(String notes);
 	public void setId(int id);
+	public void setVersion(int version);
 	
 	public String getName();
 	public String getPhonenumber();
 	public String getNotes();
 	public int getId();
+	public int getVersion();
 }
