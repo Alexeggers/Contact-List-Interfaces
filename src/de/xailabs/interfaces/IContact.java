@@ -7,6 +7,7 @@ public interface IContact {
 	public void setNotes(String notes);
 	public void setId(int id);
 	public void setVersion(int version);
+	public void incrementVersion();
 	
 	public String getName();
 	public String getPhonenumber();
